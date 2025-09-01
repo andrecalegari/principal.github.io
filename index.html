@@ -57,7 +57,7 @@
       }
 
       const res = await fetch("https://<sua-url-supabase-functions>/apostas", {
-        method: "POST",
+        method: "POST", 
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ numeros: escolhidos, valor: 20 })
       });
